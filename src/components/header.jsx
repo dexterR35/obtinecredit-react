@@ -12,12 +12,12 @@ const Header = () => {
   const [navbar, setNavbar] = useState(false);
 
   return (
-    <nav className="w-full bg-green-100 shadow">
+    <nav className="w-full bg-white shadow">
       <div className="justify-between px-4 mx-auto lg:max-w-7xl md:items-center md:flex md:px-8">
         <div>
           <div className="flex items-center justify-between py-3 md:py-5 md:block">
             <a href="javascript:void(0)">
-              <h2 className="text-2xl font-bold text-white">LOGO</h2>
+              <h2 className="text-2xl font-bold text-dark">LOGO</h2>
             </a>
             <div className="md:hidden">
               <button
@@ -77,22 +77,22 @@ const Header = () => {
             </ul>
 
             <div className="mt-3 space-y-2 lg:hidden md:hidden">
-              <a
+              <button
                 href="javascript:void(0)"
                 className="inline-block w-full px-4 py-2 text-center text-gray-800 bg-white rounded-md shadow hover:bg-gray-100"
               >
                 Vezi Oferta
-              </a>
+              </button>
             </div>
           </div>
         </div>
         <div className="hidden space-x-2 md:inline-block">
-          <a
+          <button
             href="javascript:void(0)"
-            className="px-4 py-2 text-gray-800 bg-white rounded-md shadow hover:bg-gray-100"
+            className="px-4 py-2 text-white bg-green-400 rounded-md shadow hover:bg-gray-100"
           >
             Vezi Oferta
-          </a>
+          </button>
         </div>
       </div>
     </nav>
