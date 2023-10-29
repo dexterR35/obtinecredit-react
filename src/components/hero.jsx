@@ -1,10 +1,17 @@
-import { FaFacebook, FaWhatsapp, FaInstagram } from "react-icons/fa6";
+import {
+  FaFacebook,
+  FaWhatsapp,
+  FaInstagram,
+  FaAngleRight,
+  FaCircleCheck,
+  FaTiktok,
+} from "react-icons/fa6";
 
 const hero = () => {
   return (
-    <section className="mt-[5rem] md:mt-0">
+    <section className="mt-[5rem] md:mt-0 ">
       <div className="md:max-w-7xl mx-auto flex flex-col md:flex-row md:h-screen items-center w-full p-4 space-y-3 md:space-y-0">
-        <div className="flex flex-col flex-1 items-center  md:items-start justify-center space-y-6 md:px-4">
+        <div className="flex flex-col flex-1 items-center  md:items-start justify-center space-y-6 md:px-4 md:mb-20">
           <h1 className="md:text-6xl text-5xl font-bold w-full md:w-6/6 ">
             Soluții de creditare personalizate
           </h1>
@@ -13,20 +20,23 @@ const hero = () => {
             oferite de o echipa profesionista in domeniul bancar financiar si
             non-bancar.
           </p>
-          <button className="w-[10rem] hidden md:block">Obtine Credit</button>
+          <button className="w-[12rem] hidden md:flex items-center justify-center space-x-2 uppercase">
+            <span>Obtine Credit</span>
+            <FaAngleRight />
+          </button>
           <div className="hidden md:block">
-            <ul className="flex space-x-6 text-gray-400 text-sm cursor-pointer">
+            <ul className="flex space-x-6 text-gray-400 text-md cursor-pointer">
               <li className="flex items-center space-x-1">
                 <FaFacebook />
                 <span>Facebook</span>
               </li>
               <li className="flex items-center space-x-1">
                 <FaInstagram />
-                <span>instagram</span>
+                <span>Instagram</span>
               </li>
               <li className="flex items-center space-x-1">
-                <FaWhatsapp />
-                <span>Whatsapp</span>
+                <FaTiktok />
+                <span>Tik-Tok</span>
               </li>
             </ul>
           </div>
@@ -37,11 +47,20 @@ const hero = () => {
             src={require("../assets/bg-6.png")}
             alt="frontimg"
           />
-          <div className="absolute top-0 right-20 bg-gray-100 text-gray-400 p-2 w-1/4 text-center text-sm rounded-md hidden md:block">
-            <p>Credit Rapid</p>
+          <div className="absolute top-0 right-10 px-4 bg-white text-gray-400 p-2 w-1/3 rounded-md hidden md:block shadow-md">
+            <p className="text-md flex space-x-2 items-center">
+              <FaCircleCheck className="fill-green-300" />
+              <span>Credit Personalizat</span>
+            </p>
+            <p className="text-sm">test</p>
           </div>
-          <div className="absolute bottom-14 left-14 bg-gray-100 text-gray-400 p-2 w-1/4 text-center text-sm rounded-md hidden md:block">
-            <p>Credit Personalizat</p>
+
+          <div className="absolute bottom-50 left-50 bg-white text-gray-400 p-2 w-1/3 rounded-md hidden md:block shadow-md">
+            <p className="text-md flex space-x-2 items-center">
+              <FaCircleCheck className="fill-green-300" />
+              <span>Credit Rapid</span>
+            </p>
+            <p className="text-sm">test</p>
           </div>
           <button className="w-[10rem] md:hidden block">Obtine Credit</button>
           <div className="md:hidden">
@@ -56,12 +75,17 @@ const hero = () => {
               </li>
               <li className="flex items-center space-x-1">
                 <FaWhatsapp />
-                <span>Whatsapp</span>
+                <span>Tik-Tok</span>
               </li>
             </ul>
           </div>
         </div>
       </div>
+
+      {/* <div className="chat-us py-3 px-6 absolute bottom-10 right-20 rounded-xl shadow-md  text-white flex items-center space-x-2 bg-green-500 hover:text-white cursor-pointer">
+        <FaWhatsapp className="text-2xl" />
+        <span>Whatsapp</span>
+      </div> */}
     </section>
   );
 };
