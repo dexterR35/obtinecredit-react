@@ -49,7 +49,7 @@ const hero = () => {
           />
           <div className="absolute top-0 right-10 px-4 bg-white text-gray-400 p-2 w-1/3 rounded-md hidden md:block shadow-md">
             <p className="text-md flex space-x-2 items-center">
-              <FaCircleCheck className="fill-green-300" />
+              <FaCircleCheck className="fill-green-400" />
               <span>Credit Personalizat</span>
             </p>
             <p className="text-sm">test</p>
@@ -57,7 +57,7 @@ const hero = () => {
 
           <div className="absolute bottom-50 left-50 bg-white text-gray-400 p-2 w-1/3 rounded-md hidden md:block shadow-md">
             <p className="text-md flex space-x-2 items-center">
-              <FaCircleCheck className="fill-green-300" />
+              <FaCircleCheck className="fill-green-400" />
               <span>Credit Rapid</span>
             </p>
             <p className="text-sm">test</p>
