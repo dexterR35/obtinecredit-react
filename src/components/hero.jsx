@@ -9,7 +9,7 @@ import {
 
 const hero = () => {
   return (
-    <section className="mt-[100px] px-4">
+    <section className="mt-[100px] lg:mt-5 px-4 pb-[5vh]">
       <div className="lg:max-w-7xl mx-auto flex flex-col lg:flex-row lg:h-screen items-center w-full space-y-3 lg:space-y-0">
         <div className="flex flex-col flex-1 items-center  lg:items-start justify-center space-y-6 lg:px-4 lg:mb-20">
           <h1 className="lg:text-6xl text-3xl font-bold w-full lg:w-6/6 ">

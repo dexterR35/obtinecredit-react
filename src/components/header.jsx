@@ -13,8 +13,8 @@ const Header = () => {
   const [navbar, setNavbar] = useState(false);
 
   return (
-    <nav className="w-full bg-white shadow fixed top-0 z-20">
-      <div className="justify-between px-4 mx-auto lg:max-w-7xl lg:items-center lg:flex lg:px-8">
+    <nav className="w-full bg-white shadow relative top-0 z-20">
+      <div className="flex justify-between px-4 mx-auto lg:max-w-7xl lg:items-center ">
         <div className="flex justify-between py-3 lg:py-5 lg:block">
           <a href="#" className="flex place-items-center space-x-2">
             <img src={obtLogo} alt="test" className="w-9 h-9 object-contain" />
