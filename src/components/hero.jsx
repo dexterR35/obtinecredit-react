@@ -9,13 +9,13 @@ import {
 
 const hero = () => {
   return (
-    <section className="mt-[5rem] lg:mt-0">
-      <div className="lg:max-w-7xl mx-auto flex flex-col lg:flex-row lg:h-screen items-center w-full p-4 space-y-3 lg:space-y-0">
+    <section className="mt-[100px] px-4">
+      <div className="lg:max-w-7xl mx-auto flex flex-col lg:flex-row lg:h-screen items-center w-full space-y-3 lg:space-y-0">
         <div className="flex flex-col flex-1 items-center  lg:items-start justify-center space-y-6 lg:px-4 lg:mb-20">
-          <h1 className="lg:text-6xl text-5xl font-bold w-full lg:w-6/6 ">
+          <h1 className="lg:text-6xl text-3xl font-bold w-full lg:w-6/6 ">
             Soluții de creditare personalizate
           </h1>
-          <p className="text-lg w-full lg:w-5/6  text-gray-400">
+          <p className="text-md w-full lg:w-5/6  text-gray-400">
             Servicii complete de creditare si crestea sanselor de aprobare
             oferite de o echipa profesionista in domeniul bancar financiar si
             non-bancar.
@@ -24,18 +24,18 @@ const hero = () => {
             <span>Obtine Credit</span>
             <FaAngleRight />
           </button>
-          <div className="hidden lg:block">
+          <div className="hidden lg:block relative">
             <ul className="flex space-x-6 text-gray-400 text-md cursor-pointer">
-              <li className="flex items-center space-x-1">
-                <FaFacebook />
+              <li className="flex items-center space-x-2">
+                <FaFacebook className="text-2xl" />
                 <span>Facebook</span>
               </li>
-              <li className="flex items-center space-x-1">
-                <FaInstagram />
+              <li className="flex items-center space-x-2">
+                <FaInstagram className="text-2xl" />
                 <span>Instagram</span>
               </li>
-              <li className="flex items-center space-x-1">
-                <FaTiktok />
+              <li className="flex items-center space-x-2">
+                <FaTiktok className="text-2xl" />
                 <span>Tik-Tok</span>
               </li>
             </ul>
@@ -55,30 +55,15 @@ const hero = () => {
             <p className="text-sm text-gray-400">test</p>
           </div>
 
-          <div className="absolute bottom-50 left-50 bg-white  p-2 w-1/3 rounded-md hidden lg:block shadow-md">
+          <div className="absolute bottom-1/2 left-50 bg-white p-2 w-1/3 rounded-md hidden lg:block shadow-md">
             <p className="text-md flex space-x-2 items-center">
               <FaCircleCheck className="fill-green-400" />
               <span className="text-gray-500 "> Credit Rapid</span>
             </p>
             <p className="text-sm text-gray-400">test</p>
           </div>
+
           <button className="w-[10rem] lg:hidden block">Obtine Credit</button>
-          <div className="lg:hidden">
-            <ul className="flex space-x-6 text-gray-400 text-sm cursor-pointer">
-              <li className="flex items-center space-x-1">
-                <FaFacebook />
-                <span>Facebook</span>
-              </li>
-              <li className="flex items-center space-x-1">
-                <FaInstagram />
-                <span>instagram</span>
-              </li>
-              <li className="flex items-center space-x-1">
-                <FaWhatsapp />
-                <span>Tik-Tok</span>
-              </li>
-            </ul>
-          </div>
         </div>
       </div>
 
