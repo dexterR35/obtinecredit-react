@@ -1,12 +1,12 @@
 const about = () => {
   return (
-    <section className="bg-green-100 px-4 mt-[10vh]">
+    <section className="bg-green-100 px-4">
       <div className="container mx-auto h-100 lg:h-screen flex flex-col items-stretch justify-evenly">
-        <h2 className="text-4xl font-bold uppercase flex flex-col text-center justify-center py-[4rem] lg:py-[2rem] ">
+        <h2 className="text-5xl font-bold uppercase flex flex-col text-center justify-center py-[4rem] lg:py-[2rem] ">
           Cine suntem?
-          <span className="text-sm capitalize font-normal text-gray-700">
+          <p className="text-[1.4rem] capitalize font-normal text-gray-700">
             Lorem ipsum dolor sit.
-          </span>
+          </p>
         </h2>
         <div className="flex flex-col lg:flex-row items-center">
           <div className="w-96 lg:w-1/2">

@@ -13,12 +13,14 @@ const Header = () => {
   const [navbar, setNavbar] = useState(false);
 
   return (
-    <nav className="w-full bg-white shadow relative top-0 z-20">
+    <nav className="w-full bg-green-100 fixed top-0 z-20">
       <div className="flex justify-between px-4 mx-auto lg:max-w-7xl lg:items-center ">
         <div className="flex justify-between py-3 lg:py-5 lg:block">
           <a href="#" className="flex place-items-center space-x-2">
             <img src={obtLogo} alt="test" className="w-9 h-9 object-contain" />
-            <span className="text-lg text-dark font-bold">OBTINE CREDIT</span>
+            <span className="text-xl text-gray-600 font-bold">
+              OBTINE CREDIT
+            </span>
           </a>
           <div className="lg:hidden">
             <button className="p-2 text-2xl" onClick={() => setNavbar(!navbar)}>
@@ -35,8 +37,8 @@ const Header = () => {
           >
             <ul className="space-y-5 lg:flex lg:space-x-6 lg:space-y-0">
               {Links.map((link) => (
-                <li key={link.name} className="p-2 px-3  hover:bg-green-400">
-                  <a href={link.link} className="text-gray-800 text-base">
+                <li key={link.name} className="p-2 px-3 hover:bg-green-400">
+                  <a href={link.link} className="text-gray-800 text-lg">
                     {link.name}
                   </a>
                 </li>
