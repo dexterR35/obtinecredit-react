@@ -21,7 +21,7 @@ const hero = () => {
         <div className="flex items-center flex-col flex-1 space-y-6 lg:px-4 lg:w-[18rem] lg:flex-row lg:justify-end relative">
           <img
             className="w-[100%] h-100 object-contain lg:max-w-[50vh]"
-            src={require("../assets/bg-11.png")}
+            src={require("../assets/bg-10.png")}
             alt="frontimg"
           />
           <div className="absolute top-0 right-[-5%] px-4 bg-white p-2 w-1/3 rounded-md hidden lg:block shadow-md">
