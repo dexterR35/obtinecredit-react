@@ -9,9 +9,11 @@ function App() {
   return (
     <>
       <Header />
-      <Hero />
-      <About />
-      <Services />
+      <div className="wrapper">
+        <Hero />
+        <About />
+        <Services />
+      </div>
       <Footer />
     </>
   );

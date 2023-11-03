@@ -28,6 +28,16 @@
   color: #61dafb;
 }
 
+.wrapper {
+  /* scroll-behavior: smooth;
+  scroll-snap-type: y mandatory;
+  height: 100vh;
+  overflow-y: scroll; */
+}
+.wrapper section {
+  scroll-snap-align: start;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
