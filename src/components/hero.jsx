@@ -3,7 +3,7 @@ import { FaAngleRight, FaCircleCheck } from "react-icons/fa6";
 const hero = () => {
   return (
     <main className="bg-green-100">
-      <div className="container mx-auto w-full flex items-center flex-col lg:flex-row h-[82vh] h-100 space-y-3 lg:space-y-0 lg:mt-[70px] mt-[10%]">
+      <div className="max-w-7xl mx-auto w-full flex items-center flex-col lg:flex-row h-[82vh] h-100 space-y-3 lg:space-y-0 lg:mt-[70px] mt-[10%] p-3">
         <div className=" flex flex-col flex-1 items-start justify-center space-y-6 ">
           <h1 className="lg:text-6xl text-3xl font-bold w-full lg:w-6/6">
             Soluții de creditare personalizate
@@ -18,13 +18,13 @@ const hero = () => {
             <FaAngleRight />
           </button>
         </div>
-        <div className="flex items-center flex-col flex-1 space-y-6 lg:px-4 lg:w-[18rem] lg:flex-row lg:justify-center relative">
+        <div className="flex items-center flex-col flex-1 space-y-6 lg:px-4 lg:w-[18rem] lg:flex-row lg:justify-end relative">
           <img
-            className="w-[70%] h-100 object-contain lg:max-w-[50vh]"
+            className="w-[100%] h-100 object-contain lg:max-w-[50vh]"
             src={require("../assets/bg-11.png")}
             alt="frontimg"
           />
-          <div className="absolute top-0 right-10 px-4 bg-white p-2 w-1/3 rounded-md hidden lg:block shadow-md">
+          <div className="absolute top-0 right-[-5%] px-4 bg-white p-2 w-1/3 rounded-md hidden lg:block shadow-md">
             <p className="text-md flex space-x-2 items-center">
               <FaCircleCheck className="fill-green-400" />
               <span className="text-gray-500">Credit Personalizat</span>
@@ -32,7 +32,7 @@ const hero = () => {
             <p className="text-sm text-gray-400">test</p>
           </div>
 
-          <div className="absolute bottom-1/2 left-50 bg-white p-2 w-1/3 rounded-md hidden lg:block shadow-md">
+          <div className="absolute bottom-1/3 left-[45%] bg-white p-2 w-1/3 rounded-md hidden lg:block shadow-md">
             <p className="text-md flex space-x-2 items-center">
               <FaCircleCheck className="fill-green-400" />
               <span className="text-gray-500 "> Credit Rapid</span>
