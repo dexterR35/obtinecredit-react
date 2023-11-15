@@ -1,7 +1,7 @@
 const footer = () => {
   return (
     <footer>
-      <div className="w-full mx-auto h-48 bg-blue-950">
+      <div className="md:w-5/6 mx-auto h-48 bg-green-300 mb-[2rem] rounded-b-md">
         <ul className="flex flex-row">
           <li>
             <a href="#">test11</a>

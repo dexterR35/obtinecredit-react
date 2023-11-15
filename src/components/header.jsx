@@ -14,7 +14,7 @@ const Header = () => {
 
   return (
     <Fragment>
-      <nav className="w-full bg-green-100 fixed top-0 z-20 p-3">
+      <nav className="w-full fixed top-0 z-20 p-3 bg-white">
         <div className="container flex justify-between h-full px-4 mx-auto lg:items-center">
           <div className="flex justify-between">
             <a href="#" className="inline-flex items-center">

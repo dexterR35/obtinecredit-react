@@ -2,7 +2,7 @@ import { FaAngleRight, FaCircleCheck } from "react-icons/fa6";
 
 const hero = () => {
   return (
-    <main className="bg-green-100 lg:h-[100vh] h-full flex flex-col justify-center">
+    <main className="lg:h-[100vh] h-full flex flex-col justify-center">
       <div className="max-w-7xl mx-auto w-full h-full flex items-center flex-col lg:flex-row lg:p-0 p-6 lg:mt-0 mt-[80px]">
         <div className="flex flex-col space-y-6 lg:justify-center w-[60%] ">
           <h1 className="lg:text-5xl text-3xl font-bold w-full">
@@ -21,7 +21,7 @@ const hero = () => {
         <div className="flex flex-col justify-end w-[40%] lg:flex-row lg:justify-center relative">
           <img
             className="h-full object-contain lg:w-[100%] lg:max-w-[50vh] w-[35vh]"
-            src={require("../assets/bg-5.png")}
+            src={require("../assets/bg-4.png")}
             alt="frontimg"
           />
           <div className="absolute top-0 right-[-5%] bg-white pl-3 pr-8 p-2 rounded-md hidden lg:block shadow-md">
@@ -43,7 +43,7 @@ const hero = () => {
           <button className="w-[10rem] lg:hidden block">Obtine Credit</button>
         </div>
       </div>
-      <div className="bg-green-300 lg:w-fit px-20 w-full mx-auto h-[4rem] lg:rounded-t-lg flex items-center">
+      <div className="bg-green-300 md:w-5/6 px-20 w-full mx-auto h-[4rem] lg:rounded-t-lg flex items-center justify-center">
         <p className="text-2xl font-bold uppercase">Creditare Rapida</p>
       </div>
     </main>
